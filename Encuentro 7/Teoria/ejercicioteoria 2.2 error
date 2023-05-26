@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	definir num como entero
+	//el programa ingresara numeros mientras sean PARES
+	Escribir "Ingrese un numero"
+	leer num
+
+	
+//	Mientras num mod 2= 0 Hacer
+//		Escribir "Ingrese otro numero"
+//		leer num
+//		Si (num mod 2 <> 0) Entonces
+//			Escribir "El numero es impar, ingrese uno par"
+//			leer num
+//		FinSi
+	//	Fin Mientras
+	
+//	Mientras num mod 2 == 0 hacer
+//		Escribir  "Ingrese otro numero"
+//	FinMientras
+//	
+//	Escribir "El numero es impar"
+	
+FinAlgoritmo

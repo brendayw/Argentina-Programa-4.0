@@ -1,0 +1,28 @@
+Algoritmo sin_titulo
+//	EJERCICIO VOCAL SECRETA
+//	Diseña un programa que guarde una vocal secreta en una variable, debemos pedirle al usuario
+//	que intente adivinar la vocal secreta, e intentará tantas veces como sea necesario hasta que la
+	//	adivine.
+	
+	Definir vocal Como entero
+	definir x como caracter
+	
+	Escribir "Ingrese la vocal secreta"
+		
+	vocal = 1
+	
+	Mientras vocal <> 0 Hacer
+		Escribir "La vocal secreta es incorrecta"
+		leer x
+		si x = "u" Entonces
+			vocal = 0
+		sino 
+			si x = "U" entonces
+				vocal = 0
+			fin si
+		FinSi
+	Fin Mientras
+	
+	Escribir "La vocal es correcta"
+	
+FinAlgoritmo

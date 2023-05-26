@@ -1,0 +1,38 @@
+Algoritmo sin_titulo
+	Definir frase Como Caracter
+	
+	Escribir "Ingrese una frase"
+	Leer frase
+	
+	separacion(frase)
+	
+FinAlgoritmo
+
+SubProceso separacion(frase Por Referencia)
+	Definir aux, i Como Entero
+	Definir simbolos, aux2 Como Caracter
+	
+	aux=longitud(frase)-1
+	Para i=0 hasta aux
+		simbolos=subcadena(frase,i,i)
+		
+		Segun simbolos
+			"a":
+				Escribir "@"
+			"e":
+				Escribir "#"
+			"i": 
+				Escribir "$"
+			"o":
+				Escribir "%"
+			"u":
+				Escribir "*"
+			De Otro Modo:
+				i = 0
+				aux2=simbolos
+				aux2=Concatenar(aux2,simbolos)
+		FinSegun
+		
+	FinPara
+FinSubProceso
+	
